@@ -1,0 +1,47 @@
+{
+  "name": "cooling-off-web3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format-check": "prettier --check \"{assets,components,context,lib,pages,styles}/*.{js,ts,jsx,tsx,json}\"",
+    "format": "prettier --write \"{assets,components,context,lib,pages,styles}/*.{js,ts,jsx,tsx,json}\""
+  },
+  "dependencies": {
+    "@metamask/etherscan-link": "^2.1.0",
+    "@openzeppelin/contracts": "^4.5.0",
+    "@walletconnect/web3-provider": "^1.7.5",
+    "@web3auth/web3auth": "^0.6.2",
+    "ethers": "^5.6.1",
+    "magic-sdk": "^8.1.0",
+    "moment": "^2.29.1",
+    "moralis": "^1.5.5",
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-moralis": "^1.3.4",
+    "react-simple-hook-modal": "^1.1.0",
+    "react-slick": "^0.29.0",
+    "react-spinners": "^0.11.0",
+    "slick-carousel": "^1.8.1",
+    "web3": "^1.7.3",
+    "web3uikit": "0.1.110"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.43",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2",
+    "@types/react-slick": "^0.23.8",
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.12",
+    "prettier": "^2.7.0",
+    "tailwindcss": "^3.0.23",
+    "typescript": "4.7.3"
+  }
+}
